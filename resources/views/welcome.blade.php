@@ -8,8 +8,7 @@
     @livewireStyles
 </head>
 <body>
-    <livewire:hello-world />
-    <livewire:hello-world />
+    <livewire:counter />
     @livewireScripts
 </body>
 </html>
