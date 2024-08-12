@@ -15,6 +15,16 @@ class Counter extends Component
 
     public function increment()
     {
-        $this->number++;
+        if ($this->number < 6) {
+            $this->number = $this->number + 1;
+        }
     }
+
+    public function decrement()
+    {
+        if ($this->number > 0) {
+            $this->number = $this->number - 1;
+        }
+    }
+
 }
